@@ -1,0 +1,32 @@
+{
+  "name": "mvc-util",
+  "version": "0.0.5",
+  "description": "create mvc project",
+  "main": "bin/create-app.js",
+  "bin": {
+    "create-app": "./bin/create-app.js"
+  },
+  "author": "btz",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.1.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btz606/btz-command.git"
+  },
+  "bugs": {
+    "url": "https://github.com/btz606/btz-command/issues"
+  },
+  "homepage": "https://github.com/btz606/btz-command#readme"
+}
